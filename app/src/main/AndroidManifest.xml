@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.adt.alphadev.firstprojectinkotlin">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.FirstProjectInKotlin">
+        <activity android:name=".Retrofit.HomeActivity"></activity>
+        <activity android:name=".Retrofit.RegisterActivity" />
+        <activity android:name=".Retrofit.LoginActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".Dubble_backPressToExit.Activity_back_press">
+
+        </activity>
+        <activity android:name=".check_internet_connection.ActivityCheck_Internet" />
+        <activity android:name=".check_internet_connection.Activity_Check_Internet_Connection" />
+        <activity android:name=".Session_Management.ActivityWelcome" />
+        <activity android:name=".Session_Management.ActivitySession_Management" />
+        <activity android:name=".Recyclerview.ActivityStaggered_Recyclerview" />
+        <activity android:name=".Recyclerview.ActivityGrid_Recyclerview" />
+        <activity android:name=".Recyclerview.ActivityHorizontal_Recyclerview" />
+        <activity android:name=".Recyclerview.ActivityVertical_Recyclerview" />
+        <activity android:name=".QR_Code.ActivityQR_code_scanner" />
+        <activity android:name=".QR_Code.ActivityQR_Code" />
+        <activity android:name=".PDF_Generator.ActivityPDF_Generator" />
+        <activity android:name=".ListView.Activity_ListView" />
+        <activity android:name=".IntroSlider.Activity_IntroSlider" />
+        <activity android:name=".IntroSlider.ActivitySplashScreen_2" />
+        <activity android:name=".Image_Picker_And_Capture.ActivityCapture_Image_From_Camera" />
+        <activity android:name=".Image_Picker_And_Capture.Activity_Image_Picker_From_Gallery" />
+        <activity android:name=".Date_And_Time_Picker.ActivityDate_And_Time_Picker" />
+        <activity android:name=".ProgressBar.ActivityProgressBar" />
+        <activity android:name=".Bottom_Sheet.ActivityBottom_Sheet" />
+        <activity android:name=".Check_Box.ActivityCheckBox" />
+        <activity android:name=".Activity_Life_Cycler.ActivityLife_Cycle" />
+        <activity android:name=".Radio_Buttons.ActivityRadio_Buttons" />
+        <activity android:name=".Navigation_Drawer.ActivityNavigation_Drawer" />
+        <activity android:name=".TabLayout.ActivityTab_Layout" />
+        <activity android:name=".AlertDiag.ActivityAlertDialog" />
+        <activity android:name=".Option_Menu.ActivityOption_Menu" />
+        <activity android:name=".Validation.ActivityValidation" />
+        <activity android:name=".Pass_Data_Using_Intent.Activity_Get_Data" />
+        <activity android:name=".Pass_Data_Using_Intent.ActivityPassDataUsingIntent" />
+        <activity android:name=".SnackBar.ActivitySnack_bar" />
+        <activity android:name=".WebView.Activity_WebView" />
+        <activity android:name=".Custom_Toolbar.Activity_Custom_Toolbar" />
+        <activity android:name=".Bottom_Navigation.ActivityBottom_Navigation" />
+        <activity android:name=".Toast.ActivityToast" />
+        <activity android:name=".Splash_Screen.Activity_SplashScreen" />
+        <activity android:name=".MainActivity" />
+    </application>
+
+</manifest>
